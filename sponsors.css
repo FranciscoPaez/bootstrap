@@ -1,0 +1,108 @@
+.btn-pz{
+    background: #fd611a;
+    color: #fff;
+    border-radius: none;
+}
+.btn-pz:hover{
+    background-color: #fff;
+    color: #fd611a;
+    border-color: #fd611a;
+}
+
+body{
+    background: #FAF9F9;
+}
+.container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.container .parrafo{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.card-body{
+    text-align: center;
+}
+
+.alert-warning{
+    background: #fd611a !important;
+    text-align: center;
+    color: #fff;
+}
+
+footer{
+    background-color: #252a2b;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    padding-top: 3rem;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.footer__menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer__menu ul li a:hover{
+    text-decoration: none;
+    color: #fd611a;
+}
+
+.footer__menu-2 ul li{
+    color: #fd611a;
+    font-size: 1.3rem;
+}
+
+.footer__menu-2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.17rem;
+}
+.footer__menu-2 ul li a:hover{
+    text-decoration: none;
+    color: #fd611a;
+}
+
+
+.btn-footer{
+    background: #fd611a;
+    color: #fff;
+    border-radius: none;
+}
+.btn-footer:hover{
+    background-color: #fff;
+    color: #fd611a;
+    border-color: #fd611a;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.redes a{
+    position: relative;
+    color: #ccc;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.redes a:not(:last-child){
+    margin-right: 60px;
+}
+.redes a:hover{
+    transform: scale(1.9);
+    color: #fd611a;
+}
